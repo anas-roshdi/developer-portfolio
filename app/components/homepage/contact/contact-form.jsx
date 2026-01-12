@@ -21,9 +21,8 @@ function ContactForm() {
     }
   };
 
-  const handleSendMail = async (e) => {
+const handleSendMail = async (e) => {
     e.preventDefault();
-
     if (!userInput.email || !userInput.message || !userInput.name) {
       setError({ ...error, required: true });
       return;
@@ -35,19 +34,24 @@ function ContactForm() {
 
     try {
       setIsLoading(true);
+      
+      
       const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
+        "https://formspree.io/f/mzddbdqk", 
         userInput
       );
 
-      toast.success("Message sent successfully!");
-      setUserInput({
-        name: "",
-        email: "",
-        message: "",
-      });
+      if (res.status === 200) {
+        toast.success("Message sent successfully!");
+        setUserInput({
+          name: "",
+          email: "",
+          message: "",
+        });
+      }
     } catch (error) {
-      toast.error(error?.response?.data?.message);
+      toast.error("Something went wrong, please try again.");
+      console.error("Formspree Error:", error);
     } finally {
       setIsLoading(false);
     };
