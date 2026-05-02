@@ -2,8 +2,6 @@
 import { educations } from "@/utils/data/educations";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import lottieFile from '../../../assets/lottie/study.json';
-import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 
 function Education() {
@@ -26,7 +24,7 @@ function Education() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Educations
+            Education
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -34,9 +32,17 @@ function Education() {
 
       <div className="py-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-          <div className="flex justify-center items-start">
-            <div className="w-3/4 h-3/4">
-              <AnimationLottie animationPath={lottieFile} />
+          
+          
+          <div className="flex justify-center items-center ">
+            <div className="w-full max-w-[250px] flex justify-center items-center transition-all duration-500 hover:scale-110">
+              <Image
+                src="/uqu-logo.png"
+                alt="Umm Al-Qura University Logo"
+                width={250}
+                height={250}
+                className="drop-shadow-[0_0_15px_rgba(236,72,153,0.4)] opacity-90"
+              />
             </div>
           </div>
 
@@ -67,6 +73,9 @@ function Education() {
                             {education.title}
                           </p>
                           <p className="text-sm sm:text-base">{education.institution}</p>
+                          <p className="text-sm sm:text-base text-gray-400 mt-1">
+                            First Class Honors (GPA: 3.84/4.00)
+                          </p>
                         </div>
                       </div>
                     </div>
