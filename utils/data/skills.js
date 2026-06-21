@@ -2,6 +2,7 @@ export const skillsData = [
   'HTML',
   'CSS',
   'Javascript',
+  'Typescript',
   'React',
   'MySQL',
   'Figma',
