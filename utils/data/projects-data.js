@@ -2,7 +2,26 @@ import devoCover from '../../public/projects/devo/devo-cover.png';
 
 export const projectsData = [
   {
-    id: 1, // تأكد من تعديل أرقام (id) المشاريع الأخرى لتكون متسلسلة
+    id: 1,
+    name: 'Lammeh - Social Party Game (Coming Soon to Google Play)',
+    description: "Developed an offline multiplayer social deduction game for Android, and managed the complete app deployment lifecycle, from version control with Git to EAS building and Google Play Console submission (Currently in Closed Testing).",
+    tools: ['React Native', 'TypeScript', 'SQLite', 'EAS Build', 'Git'],
+    role: 'Mobile App Developer',
+    code: 'https://github.com/anas-roshdi/Lammeh',
+    demo: '',
+    images: [
+      '/projects/Lammeh/home.jpeg',
+      '/projects/Lammeh/selectCategory.jpeg',
+      '/projects/Lammeh/addPlayers.jpeg',
+      '/projects/Lammeh/Role1.jpeg',
+      '/projects/Lammeh/Role2.jpeg',
+      '/projects/Lammeh/Hinting.jpeg',
+      '/projects/Lammeh/Guess.jpeg',
+      '/projects/Lammeh/Results.jpeg',
+    ],
+  }
+  {
+    id: 2, // تأكد من تعديل أرقام (id) المشاريع الأخرى لتكون متسلسلة
     name: 'Quran Journey App (In Progress)',
     description: 'Currently developing a comprehensive educational mobile app featuring role-based dashboards, interactive learning modules, dynamic memorization roadmaps, and a scalable front-end architecture.',
     tools: ['React Native', 'TypeScript', 'JSX', 'Git'],
@@ -48,7 +67,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: 'Devo - Unified Business Management System',
     description: "Developed a modular desktop application for business and inventory management. The system features a dynamic invoicing module, automated financial reporting, and real-time data export using Pandas. Recently integrated AI-driven financial forecasting using Scikit-learn and NumPy, alongside interactive sales visualizations with Matplotlib for advanced analytics.",
     tools: ['Python', 'Tkinter', 'SQLite', 'Pandas', 'Scikit-learn', 'NumPy', 'Matplotlib', 'Git'],
@@ -69,7 +88,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: 'Smart Attendance System (NFC)',
     description: "My Graduation Project: Developed an automated attendance system using NFC technology and Java. The system streamlines the process of tracking student attendance with high accuracy and provides real-time data for school administration.",
     tools: ['Java', 'NFC Technology', 'SQL Server', 'Android Studio'],
@@ -87,7 +106,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: 'E-Plant Shopping App',
     description: "Created a responsive E-commerce front-end application for a plant nursery. Used React and Redux Toolkit for state management, focusing on a seamless user experience and modern UI design.",
     tools: ['React', 'Redux', 'Tailwind CSS', 'Vite'],
@@ -100,7 +119,7 @@ export const projectsData = [
       '/projects/e-plant/Cart.png'],
   },
   {
-    id: 5,
+    id: 6,
     name: 'Arabic Character Recognition',
     description: "Designed a Machine Learning model to recognize handwritten Arabic characters. I utilized Deep Learning techniques and the VGG16 architecture to achieve high classification accuracy.",
     tools: ['Python', 'TensorFlow', 'Keras', 'Computer Vision'],
@@ -111,7 +130,7 @@ export const projectsData = [
     images: [],
   },
   {
-    id: 6,
+    id: 7,
     name: 'Express Book Reviews API',
     description: "Built a robust RESTful API for book reviews. I implemented JWT for secure authentication and session-based access control. The project focused on CRUD operations and optimizing backend performance using Node.js and Express.",
     tools: ['Node.js', 'Express', 'JWT', 'Postman', 'JavaScript'],

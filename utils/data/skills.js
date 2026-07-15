@@ -9,7 +9,9 @@ export const skillsData = [
   'Pytorch',
   'Tensorflow',
   'Python',
+  'Git',
   'Java'
+
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
