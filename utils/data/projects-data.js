@@ -19,7 +19,7 @@ export const projectsData = [
       '/projects/Lammeh/Guess.jpeg',
       '/projects/Lammeh/Results.jpeg',
     ],
-  }
+  },
   {
     id: 2, // تأكد من تعديل أرقام (id) المشاريع الأخرى لتكون متسلسلة
     name: 'Quran Journey App (In Progress)',
