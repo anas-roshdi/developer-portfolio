@@ -3,8 +3,8 @@ import devoCover from '../../public/projects/devo/devo-cover.png';
 export const projectsData = [
   {
     id: 1,
-    name: 'Lammeh - Social Party Game (Coming Soon to Google Play)',
-    description: "Developed an offline multiplayer social deduction game for Android, and managed the complete app deployment lifecycle, from version control with Git to EAS building and Google Play Console submission (Currently in Closed Testing).",
+    name: 'Lammeh - Social Party Game',
+    description: "Developed an offline multiplayer social deduction game for Android, and managed the complete app deployment lifecycle, from version control with Git to EAS building and Google Play Console submission.",
     tools: ['React Native', 'TypeScript', 'SQLite', 'EAS Build', 'Git'],
     role: 'Mobile App Developer',
     code: 'https://github.com/anas-roshdi/Lammeh',
