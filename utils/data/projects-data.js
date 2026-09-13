@@ -69,11 +69,11 @@ export const projectsData = [
   {
     id: 3,
     name: 'Devo - Unified Business Management System',
-    description: "Developed a modular desktop application for business and inventory management. The system features a dynamic invoicing module, automated financial reporting, and real-time data export using Pandas. Recently integrated AI-driven financial forecasting using Scikit-learn and NumPy, alongside interactive sales visualizations with Matplotlib for advanced analytics.",
-    tools: ['Python', 'Tkinter', 'SQLite', 'Pandas', 'Scikit-learn', 'NumPy', 'Matplotlib', 'Git'],
+    description: "Architected and delivered a standalone, bilingual (AR/EN) desktop accounting and inventory management system. Built an adaptive AI WhatsApp engine that transforms unstructured text messages into verified sales invoices, complete with continuous user-correction learning. Integrated real-time analytics dashboards using Pandas and Matplotlib, and packaged the entire production distribution into a zero-configuration Windows installer using PyInstaller and Inno Setup.",
+    tools: ['Python', 'Tkinter', 'SQLite', 'Pandas', 'Matplotlib', 'Scikit-learn', 'PyInstaller', 'Inno Setup', 'Git'],
     role: 'Software Engineer',
     code: 'https://github.com/anas-roshdi/devo',
-    demo: '',
+    demo: 'https://github.com/anas-roshdi/devo/releases',
     // Devo project images
     images: [
       '/projects/devo/devo-cover.png',
