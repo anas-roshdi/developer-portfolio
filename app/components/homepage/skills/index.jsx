@@ -46,14 +46,20 @@ function Skills() {
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-3 p-6">
-                  <div className="h-8 sm:h-10">
-                    <Image
-                      src={skillsImage(skill)?.src}
-                      alt={skill}
-                      width={40}
-                      height={40}
-                      className="h-full w-auto rounded-lg"
-                    />
+                  <div className="h-8 sm:h-10 flex items-center justify-center">
+                    {skillsImage(skill)?.src ? (
+                      <Image
+                        src={skillsImage(skill)?.src}
+                        alt={skill}
+                        width={40}
+                        height={40}
+                        className="h-full w-auto rounded-lg"
+                      />
+                    ) : (
+                      <span className="text-xl font-bold text-[#16f2b3]">
+                        {skill.slice(0, 2).toUpperCase()}
+                      </span>
+                    )}
                   </div>
                   <p className="text-white text-sm sm:text-lg">
                     {skill}

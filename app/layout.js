@@ -10,11 +10,36 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Anas Tilika - Software Developer",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://developer-portfolio-gules-mu.vercel.app'),
+  title: "Anas Tilika | Mobile Application Developer (React Native)",
   description:
-    "This is the portfolio of Anas Tilika. I am a full stack developer and a self-taught designer. I love to learn new things and I am always open to collaborating with others.",
-    icons: {
+    "Mobile application developer specializing in cross-platform apps with React Native and TypeScript, with a Bachelor of Computer Science (First Class Honors).",
+  icons: {
     icon: '/profile.png',
+  },
+  openGraph: {
+    title: "Anas Tilika | Mobile Application Developer (React Native)",
+    description:
+      "Mobile application developer specializing in cross-platform apps with React Native and TypeScript, with a Bachelor of Computer Science (First Class Honors).",
+    url: process.env.NEXT_PUBLIC_APP_URL || 'https://developer-portfolio-gules-mu.vercel.app',
+    siteName: "Anas Tilika Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Anas Tilika - Mobile Application Developer",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Anas Tilika | Mobile Application Developer (React Native)",
+    description:
+      "Mobile application developer specializing in cross-platform apps with React Native and TypeScript, with a Bachelor of Computer Science (First Class Honors).",
+    images: ["/og-image.png"],
   },
 };
 

@@ -29,7 +29,7 @@ function ProjectCard({ project }) {
     };
   }, [isModalOpen]);
 
-  const images = project.images || (project.image ? [project.image] : []);
+  const images = (Array.isArray(project?.images) ? project.images : (project?.image ? [project.image] : [])).filter(Boolean);
 
   const openModal = () => {
     if (images.length > 0) {

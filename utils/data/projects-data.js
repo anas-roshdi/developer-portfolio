@@ -1,5 +1,3 @@
-import devoCover from '../../public/projects/devo/devo-cover.png';
-
 export const projectsData = [
   {
     id: 1,
@@ -62,8 +60,6 @@ export const projectsData = [
       '/projects/quran-journey/ParentDashboardScreen2.jpeg',
       '/projects/quran-journey/MyChildrenScreen.jpeg',
       '/projects/quran-journey/ParentReportsScreen.jpeg',
-      '/projects/quran-journey/ProfileScreen4.jpeg',
-
     ],
   },
   {
@@ -114,9 +110,11 @@ export const projectsData = [
     code: 'https://github.com/anas-roshdi/e-plantShopping',
     demo: 'https://anas-roshdi.github.io/e-plantShopping/',
     // Images will be added here later
-    images: ['/projects/e-plant/Start.png',
-      '/projects/e-plant/Home.png',
-      '/projects/e-plant/Cart.png'],
+    images: [
+      '/projects/e-plant/Start.webp',
+      '/projects/e-plant/Home.webp',
+      '/projects/e-plant/Cart.webp'
+    ],
   },
   {
     id: 6,
