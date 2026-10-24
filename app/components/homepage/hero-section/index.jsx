@@ -90,14 +90,6 @@ function HeroSection() {
             >
               Watira (Android app)
             </Link>
-            <Link
-              href={personalData.github || "https://github.com/anas-roshdi"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs font-medium text-gray-300 hover:text-[#16f2b3] transition-all py-1.5 px-3.5 rounded-full bg-[#1b203e] border border-[#353a52] hover:border-[#16f2b3]"
-            >
-              GitHub
-            </Link>
           </div>
 
           <div className="flex items-center gap-3">

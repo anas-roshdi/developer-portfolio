@@ -47,9 +47,6 @@ I build robust, cross-platform mobile applications using **React Native** and **
 5. **Smart Attendance System (NFC)**
    * Graduation project tracking student attendance via NFC cards with real-time administration synchronization.
    * *Stack:* Java, NFC, SQL Server, Android Studio.
-6. **E-Plant Shopping App**
-   * Responsive e-commerce mobile/web shopping interface with Redux Toolkit state management.
-   * *Stack:* React, Redux Toolkit, Tailwind CSS, Vite.
 
 ---
 

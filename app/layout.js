@@ -15,7 +15,7 @@ export const metadata = {
   description:
     "Mobile application developer specializing in cross-platform apps with React Native and TypeScript, with a Bachelor of Computer Science (First Class Honors).",
   icons: {
-    icon: '/profile.png',
+    icon: '/profile-icon.png',
   },
   openGraph: {
     title: "Anas Tilika | Mobile Application Developer (React Native)",

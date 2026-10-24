@@ -101,18 +101,4 @@ export const projectsData = [
       '/projects/nfc-attendance/edit-student.jpg'
     ],
   },
-  {
-    id: 5,
-    name: 'E-Plant Shopping App',
-    description: "Created a responsive E-commerce front-end application for a plant nursery. Used React and Redux Toolkit for state management, focusing on a seamless user experience and modern UI design.",
-    tools: ['React', 'Redux', 'Tailwind CSS', 'Vite'],
-    role: 'Front-End Developer',
-    code: 'https://github.com/anas-roshdi/e-plantShopping',
-    demo: 'https://anas-roshdi.github.io/e-plantShopping/',
-    images: [
-      '/projects/e-plant/Start.webp',
-      '/projects/e-plant/Home.webp',
-      '/projects/e-plant/Cart.webp'
-    ],
-  },
 ];
