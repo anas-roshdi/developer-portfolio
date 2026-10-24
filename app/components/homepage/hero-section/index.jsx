@@ -21,7 +21,7 @@ function HeroSection() {
       />
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
-        <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
+        <div className="order-1 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             I&apos;m <span className="text-pink-500">Anas Tilika</span>, a <span className="text-[#16f2b3]">Mobile Application Developer (React Native &amp; TypeScript)</span>.
@@ -88,7 +88,7 @@ function HeroSection() {
               href="/#watira"
               className="text-xs font-medium text-gray-300 hover:text-[#16f2b3] transition-all py-1.5 px-3.5 rounded-full bg-[#1b203e] border border-[#353a52] hover:border-[#16f2b3]"
             >
-              Watira (Android app)
+              Watira: Timetable App (Android)
             </Link>
           </div>
 
@@ -110,7 +110,7 @@ function HeroSection() {
           </div>
 
         </div>
-        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+        <div className="order-2 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
             <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>

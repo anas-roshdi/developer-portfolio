@@ -47,9 +47,9 @@ function Navbar() {
             <Link
               onClick={() => setIsOpen(false)}
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="/#watira"
+              href="/#projects"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">WATIRA</div>
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div>
             </Link>
           </li>
           <li>
@@ -74,9 +74,9 @@ function Navbar() {
             <Link
               onClick={() => setIsOpen(false)}
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="/#projects"
+              href="/#contact"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div>
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">CONTACT</div>
             </Link>
           </li>
         </ul>

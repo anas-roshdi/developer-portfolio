@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 
 function Skills() {
   return (
-    <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b] scroll-mt-20">
       <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
 
       <div className="flex justify-center -translate-y-[1px]">
@@ -54,6 +54,11 @@ function Skills() {
                         width={40}
                         height={40}
                         className="h-full w-auto rounded-lg"
+                        style={
+                          skill.toLowerCase() === 'prisma'
+                            ? { filter: 'invert(1) brightness(0.9)' }
+                            : undefined
+                        }
                       />
                     ) : (
                       <span className="text-xl font-bold text-[#16f2b3]">

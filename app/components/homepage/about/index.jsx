@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function AboutSection() {
   return (
-    <div id="about" className="my-12 lg:my-16 relative">
+    <div id="about" className="my-12 lg:my-16 relative scroll-mt-20">
       <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
           ABOUT ME
@@ -23,13 +23,15 @@ function AboutSection() {
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
+          <div className="w-full lg:max-w-[420px]">
           <Image
             src={personalData.profile}
             width={591}
             height={627}
             alt="Anas Tilika"
-            className="rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer object-cover object-top"
+            className="rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer object-cover object-top w-full"
           />
+          </div>
         </div>
       </div>
     </div>
