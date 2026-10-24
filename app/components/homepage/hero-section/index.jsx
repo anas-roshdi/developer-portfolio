@@ -24,10 +24,10 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
-            I'm <span className=" text-pink-500">{personalData.name}</span>, a Professional <span className=" text-[#16f2b3]">{personalData.designation}</span>.
+            I&apos;m <span className="text-pink-500">Anas Tilika</span>, a <span className="text-[#16f2b3]">Mobile Application Developer (React Native &amp; TypeScript)</span>.
           </h1>
 
-          <div className="my-12 flex items-center gap-5">
+          <div className="my-8 flex items-center gap-5">
             {personalData.github && (
               <Link
                 href={personalData.github}
@@ -73,6 +73,31 @@ function HeroSection() {
                 <FaTwitterSquare size={30} />
               </Link>
             )}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-3 mb-8">
+            <Link
+              href="https://play.google.com/store/apps/details?id=com.anoosyhero.lammeh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-medium text-gray-300 hover:text-[#16f2b3] transition-all py-1.5 px-3.5 rounded-full bg-[#1b203e] border border-[#353a52] hover:border-[#16f2b3]"
+            >
+              Lammeh on Google Play
+            </Link>
+            <Link
+              href="/#watira"
+              className="text-xs font-medium text-gray-300 hover:text-[#16f2b3] transition-all py-1.5 px-3.5 rounded-full bg-[#1b203e] border border-[#353a52] hover:border-[#16f2b3]"
+            >
+              Watira (Android app)
+            </Link>
+            <Link
+              href={personalData.github || "https://github.com/anas-roshdi"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-medium text-gray-300 hover:text-[#16f2b3] transition-all py-1.5 px-3.5 rounded-full bg-[#1b203e] border border-[#353a52] hover:border-[#16f2b3]"
+            >
+              GitHub
+            </Link>
           </div>
 
           <div className="flex items-center gap-3">
@@ -124,31 +149,29 @@ function HeroSection() {
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">React Native</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Node JS</span>
+                <span className="text-amber-300">Expo</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">TypeScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">SQlite</span>
+                <span className="text-amber-300">Node JS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Express</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">PostgreSQL</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">SQLite</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Prisma</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Git</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Java</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">HTML</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">CSS</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Python</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Scikit-learn</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Pandas</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Javascript</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Typescript</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>

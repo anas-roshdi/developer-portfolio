@@ -6,7 +6,8 @@ export const projectsData = [
     tools: ['React Native', 'TypeScript', 'SQLite', 'EAS Build', 'Git'],
     role: 'Mobile App Developer',
     code: 'https://github.com/anas-roshdi/Lammeh',
-    demo: '',
+    demo: 'https://play.google.com/store/apps/details?id=com.anoosyhero.lammeh',
+    demoLabel: 'Google Play',
     images: [
       '/projects/lammeh/home.jpeg',
       '/projects/lammeh/selectCategory.jpeg',
@@ -19,7 +20,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 2, // تأكد من تعديل أرقام (id) المشاريع الأخرى لتكون متسلسلة
+    id: 2,
     name: 'Quran Journey App (In Progress)',
     description: 'Currently developing a comprehensive educational mobile app featuring role-based dashboards, interactive learning modules, dynamic memorization roadmaps, and a scalable front-end architecture.',
     tools: ['React Native', 'TypeScript', 'JSX', 'Git'],
@@ -70,7 +71,7 @@ export const projectsData = [
     role: 'Software Engineer',
     code: 'https://github.com/anas-roshdi/devo',
     demo: 'https://github.com/anas-roshdi/devo/releases',
-    // Devo project images
+    demoLabel: 'Download',
     images: [
       '/projects/devo/devo-cover.png',
       '/projects/devo/Homepage.png',
@@ -91,7 +92,6 @@ export const projectsData = [
     role: 'Lead Developer',
     code: 'https://github.com/anas-roshdi/Smart_attendance_system',
     demo: '',
-    // NFC Attendance system images
     images: [
       '/projects/nfc-attendance/login.jpg',
       '/projects/nfc-attendance/nfc-scan-1.jpg',
@@ -109,33 +109,10 @@ export const projectsData = [
     role: 'Front-End Developer',
     code: 'https://github.com/anas-roshdi/e-plantShopping',
     demo: 'https://anas-roshdi.github.io/e-plantShopping/',
-    // Images will be added here later
     images: [
       '/projects/e-plant/Start.webp',
       '/projects/e-plant/Home.webp',
       '/projects/e-plant/Cart.webp'
     ],
   },
-  {
-    id: 6,
-    name: 'Arabic Character Recognition',
-    description: "Designed a Machine Learning model to recognize handwritten Arabic characters. I utilized Deep Learning techniques and the VGG16 architecture to achieve high classification accuracy.",
-    tools: ['Python', 'TensorFlow', 'Keras', 'Computer Vision'],
-    role: 'AI Developer',
-    code: 'https://github.com/anas-roshdi/Arabic-character-recognition',
-    demo: '',
-    // Backend/ML project, currently no UI screenshots
-    images: [],
-  },
-  {
-    id: 7,
-    name: 'Express Book Reviews API',
-    description: "Built a robust RESTful API for book reviews. I implemented JWT for secure authentication and session-based access control. The project focused on CRUD operations and optimizing backend performance using Node.js and Express.",
-    tools: ['Node.js', 'Express', 'JWT', 'Postman', 'JavaScript'],
-    role: 'Backend Developer',
-    code: 'https://github.com/anas-roshdi/expressBookReviews',
-    demo: '',
-    // Backend project, currently no UI screenshots
-    images: [],
-  }
 ];

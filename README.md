@@ -32,27 +32,24 @@ I build robust, cross-platform mobile applications using **React Native** and **
 
 ## 🚀 Featured Projects
 
-1. **Lammeh — Social Party Game (Android)**
+1. **Watira — Smart Timetable Planner for University Students**
+   * Full-stack Android application with backtracking constraint-satisfaction scheduling engine, automated tests, and cloud deployment.
+   * *Stack:* React Native (Expo), TypeScript, Node.js, Express, Prisma, PostgreSQL, EAS Build.
+2. **Lammeh — Social Party Game (Android)**
    * Offline multiplayer social deduction game published on Google Play.
    * *Stack:* React Native, TypeScript, SQLite, EAS Build, Git.
-2. **Quran Journey App**
+3. **Quran Journey App**
    * Comprehensive educational platform featuring role-based dashboards, Tajweed lessons, and dynamic memorization roadmaps.
    * *Stack:* React Native, TypeScript, JSX, Git.
-3. **Devo — Unified Business Management System**
+4. **Devo — Unified Business Management System**
    * Bilingual desktop ERP with AI-assisted WhatsApp invoice extraction, analytics, and automated Windows packaging.
    * *Stack:* Python, Tkinter, SQLite, Pandas, Matplotlib, Scikit-learn.
-4. **Smart Attendance System (NFC)**
+5. **Smart Attendance System (NFC)**
    * Graduation project tracking student attendance via NFC cards with real-time administration synchronization.
    * *Stack:* Java, NFC, SQL Server, Android Studio.
-5. **E-Plant Shopping App**
+6. **E-Plant Shopping App**
    * Responsive e-commerce mobile/web shopping interface with Redux Toolkit state management.
    * *Stack:* React, Redux Toolkit, Tailwind CSS, Vite.
-6. **Arabic Character Recognition**
-   * Deep Learning computer vision model using VGG16 architecture for Arabic handwriting recognition.
-   * *Stack:* Python, TensorFlow, Keras, OpenCV.
-7. **Express Book Reviews API**
-   * Secure RESTful API with JWT authentication and session-based access control.
-   * *Stack:* Node.js, Express, JWT, JavaScript.
 
 ---
 
